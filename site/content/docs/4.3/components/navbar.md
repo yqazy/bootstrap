@@ -406,7 +406,7 @@ Theming the navbar has never been easier thanks to the combination of theming cl
           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-      /div>
+      </div>
   </nav>
 </div>
 
