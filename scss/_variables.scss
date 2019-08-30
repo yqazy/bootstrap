@@ -114,8 +114,8 @@ $escaped-characters: (
 
 $enable-caret:                                true !default;
 $enable-rounded:                              true !default;
-$enable-shadows:                              false !default;
-$enable-gradients:                            false !default;
+$enable-shadows:                              true !default;
+$enable-gradients:                            true !default;
 $enable-transitions:                          true !default;
 $enable-prefers-reduced-motion-media-query:   true !default;
 $enable-grid-classes:                         true !default;
@@ -735,7 +735,7 @@ $nav-pills-link-active-bg:          $component-active-bg !default;
 // Navbar
 
 $navbar-padding-y:                  $spacer / 2 !default;
-$navbar-padding-x:                  $spacer !default;
+$navbar-padding-x:                  null !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
 
